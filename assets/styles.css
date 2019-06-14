@@ -1,0 +1,44 @@
+body {
+  background: #2c3e50;
+  margin: 0;
+}
+
+iframe, img {
+  width: 50vw;
+  height: 90vh;
+}
+
+img {
+  height: max-content;
+  width: max-content;
+}
+
+.img-block {
+  background: #000;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.img-background {
+  margin: 0 auto;
+  padding: 150px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-bottom {
+  position: absolute;
+  width: 50vw;
+  text-align: center;
+  bottom: 60px;
+}
+
+h3 {
+  color: #fff;
+  font-family: sans-serif;
+}
